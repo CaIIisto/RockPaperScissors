@@ -57,7 +57,17 @@ else if(PlayerChoice==="paper" && PuterChoice==="scissors"){
     PuterScore = PuterScore + 1;
 }
 
+console.log("The score is now "+PlayerScore+" to "+PuterScore+".");
 
+//When one person gets to 5, they win
+if (PlayerScore == 5 && PlayerScore > PuterScore){
+    console.log("Game Over, you win!! The score was "+ PlayerScore +" to "+PuterScore+".");
+}
+else if (PuterScore == 5 && PlayerScore < PuterScore){
+    console.log("Game over, you lose. The score was "+ PlayerScore +" to "+PuterScore+".");
+}
+else{
+    PlayGame();}
 }
 
 
