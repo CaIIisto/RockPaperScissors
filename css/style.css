@@ -19,7 +19,7 @@ flex-flow: row wrap;
  justify-self: center;
  justify-content: space-around;
  width:80%;
-margin-bottom: 10%;
+margin-bottom: 6%;
 }
 button{
 display: flex;
@@ -37,9 +37,23 @@ button:hover{
     background-color:rgb(165, 99, 0) ;
 }
 
+.score-message{
+   margin-bottom: 4%; 
+   font-size: larger;
+   justify-self: center;
+   justify-content: center;
+}
 .team-names{
     justify-self: center;
     width:60%;
     display: flex;
     justify-content: space-around;
+    margin-bottom: 2%;
+}
+.scorekeeping{
+   justify-self: center;
+   display: flex;
+   width:60%;
+   justify-content: space-around;
+   
 }
