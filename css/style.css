@@ -1,0 +1,45 @@
+body {
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    margin:10%;
+    background-color: rgb(255, 191, 64);
+    display: grid;
+}
+
+.title{
+    margin-bottom: 10%;
+    justify-self: center;
+    justify-content: center;
+    color: rgb(125, 69, 27);
+   
+}
+
+body .options {
+display: flex;
+flex-flow: row wrap;
+ justify-self: center;
+ justify-content: space-around;
+ width:80%;
+margin-bottom: 10%;
+}
+button{
+display: flex;
+background-color: rgb(197, 118, 0);
+border-radius: 5px;
+border-style: none;
+padding:1% 2% 1% 2%;
+width: 30%;
+height:auto;
+font-size:100%;
+justify-content: center;
+}
+
+button:hover{
+    background-color:rgb(165, 99, 0) ;
+}
+
+.team-names{
+    justify-self: center;
+    width:60%;
+    display: flex;
+    justify-content: space-around;
+}
